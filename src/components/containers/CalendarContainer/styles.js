@@ -34,6 +34,10 @@ export const LeftHead = styled.div`
   padding-top: 80px;
 `;
 
+export const LeftBody = styled.div`
+  padding-top: 30px;
+`;
+
 export const LeftTitle = styled.div`
   font-size: 32px;
   font-weight: 500;
@@ -41,6 +45,13 @@ export const LeftTitle = styled.div`
 
 export const LeftDescription = styled.div`
     font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 16px;
+`;
+
+export const LeftText = styled.div`
+    font-size: 14px;
     font-weight: 500;
     color: gray;
     margin-bottom: 16px;
@@ -84,8 +95,34 @@ export const TimeSlotsTitle = styled.div`
     text-align: center;
 `;
 
-
 export const TimeSlotsList = styled.div`
     max-height: 400px;
     overflow-y: auto;
+`;
+
+export const FormSection = styled.div`
+   display: flex;
+   flex-direction: column;
+`;
+
+export const InputWrapper = styled.div`
+    margin-bottom: 24px;
+`;
+
+export const ButtonWrapper = styled.div`
+   margin-top: 24px;
+`;
+
+export const SuccessWrapper = styled.div`
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+`;
+
+export const SuccessTitle = styled.div`
+    font-size: 18px;
+    font-weight: 500;
 `;
